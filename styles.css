@@ -1,0 +1,448 @@
+/* styles.css */
+body {
+    font-family: Como-Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+   
+  
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background: #0056b3;
+    box-shadow: 0px 2px 10px #0056b3;
+    color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    margin: 5px 0;
+    font-weight: 100px;
+    border-radius: 5px;
+}
+form {
+    position: absolute;
+    background: rgb(0, 0, 0);
+    padding: 40px;
+    top: 60%;
+    right: 3%;
+    color: #fff;
+    transform: translateY(-50%);
+    border: 1px solid #0056b3; /* Add a solid black border */
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px #0056b3;
+    width: 300px; /* Fixed width for the form */
+    display: flex;
+    overflow: hidden;
+    flex-direction: column; /* Stack elements vertically */
+}
+.heading-container {
+    text-align: center; /* Indias saefset
+    margin: 20px; /* Add some margin for spacing */
+}
+
+.main-heading {
+    color: #333; /* Change this to your desired color */
+    font-size: 2.5em; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Space between main heading and subheading */
+}
+
+.sub-heading {
+    color: #666; /* Change this to your desired color */
+    font-size: 1.2em; /* Adjust the font size as needed */
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    height: 2000px; /* For scrollable effect */
+}
+
+footer { /* Copy Right COde */
+    text-align: center;
+    padding: 10px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+input { /* Copy Right Ens here */
+    width: 95%; /* Full width for inputs */
+    padding: 10px;
+   background-color: transparent;
+   color: white;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+}
+/*search Bar Code */
+.search-container {
+    position: absolute; /* Position it absolutely */
+    top: 125px; /* Distance from the top */
+    right: 2%; /* Distance from the right */
+    display: flex; /* Use flexbox for layout */
+   
+}
+
+.search-bar {
+    width: 40%; /* Start with a width of 0 */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Border for the input */
+    border-radius: 4px; /* Rounded corners */
+    transition: width 0.5s ease; /* Animation for width */
+    outline: none; /* Remove default outline */
+}
+
+.search-bar:focus {
+    width: 200px; /* Expand width on focus */
+    border-color: #0056b3; /* Change border color on focus */
+}
+.search-icon {
+    margin-left: -30px; /* Position the icon inside the input */
+    
+    color: #333; /* Icon color */
+    font-size: 18px; /* Icon size */
+    display: flex; /* Center the icon vertically */
+    align-items: center; /* Center the icon vertically */
+}
+
+button { /* Login and ISng up Button Code start from here */
+    display: block;
+    width: 103%;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: transparent;
+    border-color: #0056b3;
+    color: #0056b3;
+    font-size: 6;
+    box-shadow: 0 1px 10px #0056b3;
+    
+
+    font-weight: Semi-bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Space above the button */
+}
+/*Sign UP page Scroll + Click link */
+/* Make the page scrollable */
+body1 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.scrollable-container {
+    flex: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 20px;
+    box-sizing: border-box;
+    height: auto; /* Allow the container to grow with content */
+}
+
+/* Footer styling */
+.footer-bottom {
+    text-align: center;
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text */
+    padding: 10px 0;
+    position: relative; /* Change from fixed to relative */
+    bottom: 0;
+    top: 100%;
+    width: 100%;
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+
+button:hover {
+    background-color: #292929; /* Darker on hover */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer { /* Copy right Code start from here */
+    display: flex;
+    justify-content: space-between; /* Space between text and link */
+    align-items: center; /* Center vertically */
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0056b3; /* Link color */
+    margin-left: 10px; /* Space between text and link */
+}
+
+.top-right-links {  
+    position: absolute;/*index.html login and signup button top right side code*/
+    top: 100px;
+    right: 10px;
+}
+
+.top-right-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ffffff; /* Adjust color as needed */
+    font-weight: Semi-bold; /* Make the text semi-bold */
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+.top-right-links a:hover {
+    text-decoration: underline;/*index.html login and signup button top right side code ends here*/
+} 
+.top-right-links button {
+    padding: 10px 20px;
+    background-color: #0056b3; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.top-right-links button:hover {
+    background-color: #ffffff; /* Darker shade on hover */
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-start; /* Align to the left */
+    margin-top: 800px; /* Space above social links */
+}
+
+.social-links a {
+    margin-right: 15px; /* Space between social icons */
+    text-decoration: none;
+    color: #0056b3; /* Icon color */
+}
+
+.social-links a:hover {
+    color: #555; /* Darker on hover */
+}
+/* Top Right Menu Code Starts Here */
+
+.top-right-menu {
+    position: absolute; /* Position the menu relative to the page */
+    top: 20px; /* Adjust the distance from the top */
+    right: 20px; /* Adjust the distance from the right */
+    display: flex; /* Align the links horizontally */
+    gap: 20px; /* Add space between the links */
+    font-size: 18px; /* Increase the font size */
+    font-weight: SemiBold; /* Make the text bold */
+    border: 2px solid #000; /* Add a border around the menu */
+    padding: 20px 20px; /* Add padding inside the border */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    background-color: #f9f9f9; /* Optional: Add a background color */
+    z-index: 1000; 
+}
+
+.top-right-menu a {
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Set text color */
+}
+
+.top-right-menu a:hover {
+    color: #007BFF; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.cart-icon {
+    top: 20px; 
+    font-size: 18px; /* Adjust size for the cart icon */
+}
+/* Google Outh Code Starts Here */
+.g_id_signin {
+    display: block;
+    width: 95%; /* Decrease the width */
+    
+    margin-bottom: 19px;
+   
+    background-color: #707070;
+    border-color: white;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+    margin-top: 3px; /* Space above the button */
+}
+/*Keyauth Animation Mesg /*
+/* Error message styling */
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Animation for error message */
+.animate-error {
+    animation: shake 1s ease;
+}
+
+/* Shake animation */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+/*Google Sign in button COde */
+.google-signin-button {
+    display: block;
+    width: 100%; /* Full width like the "Sign Up" button */
+    padding: 10px;
+    margin-top: 10px; /* Add space above the button */
+    background-color: #4285F4; /* Google blue color */
+    color: white; /* White text */
+    font-size: 16px; /* Same font size as the "Sign Up" button */
+    font-weight: bold;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    text-align: center;
+}
+
+.google-signin-button:hover {
+    background-color: #357ae8; /* Darker blue on hover */
+}
+/* Sign Up button */
+.custom-button {
+    background-color: transparent;
+    border: 2px solid #0056b3; /* Adjust the border width as needed */
+    font-size: 15px;
+    font-weight: Semibold;
+    color: #0056b3; /* Optional: Change text color to match the border */
+    padding: 10px 20px; /* Optional: Add some padding */
+    cursor: pointer; /* Optional: Change cursor on hover */
+    width: 108%;
+}
+/* Stremer.html header Code */
+bodystreamer {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Light background color */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    background-color: white; /* Box background color */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    width: 400px; /* Fixed width for the box */
+    text-align: center; /* Center text inside the box */
+}
+
+.header-title {
+    font-size: 1.8rem; /* Medium header font size */
+    color: #333; /* Header text color */
+    margin: 10px 0; /* Margin above and below the header */
+}
+
+.divider {
+    border: none; /* Remove default border */
+    height: 2px; /* Set the height of the line */
+    background-color: #ccc; /* Line color */
+    margin: 10px 0; /* Margin above and below the line */
+}
+
+.note {
+    font-size: 0.9rem; /* Note font size */
+    color: #555; /* Note text color */
+    margin: 10px 0; /* Margin above and below the note */
+}
+
+.button-container {
+    display: flex; /* Use flexbox for button layout */
+    gap: 10px; /* Space between buttons */
+    margin: 10px 0; /* Margin above and below the buttons */
+}
+
+.action-button {
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    padding: 8px 16px; /* Padding for the button */
+    width: 100%;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.action-button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+.sub-header {
+    font-size: 1.2rem; /* Sub-header font size */
+    color: #333; /* Sub-header text color */
+    margin: 10px 0; /* Margin above and below the sub-header */
+}
+
+.aimbot-container {
+    display: flex; /* Use flex */
+}
+
+bodyP {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+headerP {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.payment-options {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.option {
+    margin: 15px 0;
+}
+
+buttonP {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+footerP {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
